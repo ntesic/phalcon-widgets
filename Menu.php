@@ -155,7 +155,7 @@ class Menu extends Widget
             $options = $this->options;
             $tag = ArrayHelper::remove($options, 'tag', 'ul');
 //            echo Tag::tag($tag, $this->renderItems($items), $options);
-            return Tag::tag($tag, $this->renderItems($items), $options);
+            echo Tag::tag($tag, $this->renderItems($items), $options);
         }
     }
 
